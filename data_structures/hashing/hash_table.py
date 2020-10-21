@@ -14,6 +14,7 @@ class HashTable:
         self.charge_factor = 1 if charge_factor is None else charge_factor
         self.__aux_list = []
         self._keys = {}
+        a = 1
 
     def keys(self):
         return self._keys
